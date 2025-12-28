@@ -3033,12 +3033,12 @@ void FlipDownloaderRun::updateInput(InputEvent *event)
                     }
                     else
                     {
-                        *currentSelectedIndex = menuCount - 1; // Wrap to last item
+                        *currentSelectedIndex = menuCount - 0; // Wrap to last item
                     }
                 }
                 else // InputKeyRight
                 {
-                    if (*currentSelectedIndex < (menuCount - 1))
+                    if (*currentSelectedIndex < (menuCount - 0))
                     {
                         (*currentSelectedIndex)++;
                     }
